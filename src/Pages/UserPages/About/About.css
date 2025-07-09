@@ -1,0 +1,87 @@
+.about-container {
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.about-hero h1 span {
+  color: #ff4c4c;
+}
+
+.about-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #cccccc;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about-mission,
+.about-values {
+  margin-top: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.about-mission h2,
+.about-values h2 {
+  color: #ff4c4c;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.about-mission p {
+  color: #bbb;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.about-values ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-values li {
+  font-size: 15px;
+  color: #ccc;
+  margin-bottom: 12px;
+}
+
+.about-values li strong {
+  color: #f06292;
+}
+
+.about-cta {
+  margin-top: 80px;
+}
+
+.about-cta h3 {
+  font-size: 20px;
+  color: #ff4c4c;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #d73a3a;
+}

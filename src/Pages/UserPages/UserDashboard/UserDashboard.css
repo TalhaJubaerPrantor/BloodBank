@@ -1,0 +1,141 @@
+
+.dashboard {
+  min-height: 100vh;
+}
+
+/* Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  padding: 20px 40px;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff4c4c;
+}
+
+.dashboard-header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+.dashboard-header nav a:hover {
+  color: #ff4c4c;
+}
+
+/* Main Section */
+.dashboard-main {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.welcome-section h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.welcome-section p {
+  font-size: 15px;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-red {
+  background-color: #ff4c4c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-red:hover {
+  background-color: #d73a3a;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #ff4c4c;
+  color: #ff4c4c;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background-color: #ff4c4c22;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Card Styles */
+.card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px #00000050;
+}
+
+.card h2 {
+  color: #ff4c4c;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 20px;
+  color: #ddd;
+}
+
+.card li {
+  margin-bottom: 8px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ff4c4c;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Highlight Card */
+.highlight-card {
+  grid-column: span 2;
+  background-color: #262626;
+  text-align: center;
+}
