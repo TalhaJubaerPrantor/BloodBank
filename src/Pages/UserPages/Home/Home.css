@@ -8,7 +8,7 @@ body {
 
 /* Container */
 .hero-container {
-  min-height: 100vh;
+  min-height: 95vh;
   background: radial-gradient(circle at top left, #1a1a1a, #0d0d0d);
 }
 

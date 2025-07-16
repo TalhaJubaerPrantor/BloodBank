@@ -1,11 +1,10 @@
 import React from "react";
 import "./About.css";
-import Navbar from "../../../Components/UserComponents/Nav/Navbar";
 
 const About = () => {
     return (
         <>
-        <Navbar/>
+        
             <div className="about-container">
                 <section className="about-hero">
                     <h1>About <span>BloodBank</span></h1>

@@ -1,23 +1,25 @@
 import React from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
+import { data, Link } from "react-router-dom";
 import Navbar from "../../../Components/UserComponents/Nav/Navbar";
+import { useEffect } from "react";
 
 const Home = () => {
+
+  
+
   return (
     <div className="hero-container">
-      
-<Navbar/>
       <section className="hero-section">
         <div className="hero-text">
-          <h1 style={{ textAlign:"center" }}>
+          <h1 style={{ textAlign: "center" }}>
             Your <span>One Drop</span> Can <br /> Save A <span>Life</span>
           </h1>
           <p >
             Join thousands of heroes who donate blood and help those in urgent need.
           </p>
           <div className="hero-buttons">
-            <Link to="/athentication" className="btn-primary">Join The Community Now</Link>
+            <Link to="/athentication" className="btn-primary">Enter The Community Now</Link>
             {/* <button className="btn-secondary">Find Donor</button> */}
           </div>
         </div>
@@ -39,6 +41,7 @@ const Home = () => {
               <li>Use blood responsibly</li>
               <li>Report any reaction</li>
             </ul>
+
           </div>
         </div>
       </section>

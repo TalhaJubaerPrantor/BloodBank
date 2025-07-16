@@ -1,11 +1,16 @@
-
+#group {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #cccccc;
+}
 
 /* Wrapper styling */
 .signup-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 88vh;
   /* background: linear-gradient(135deg, #74ebd5, #acb6e5); */
   padding: 20px;
 }
@@ -49,6 +54,16 @@
 .form-group input:focus {
   border-color: black !important;
   outline: none;
+}
+
+.input-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+
+input{
+  color: black;
 }
 
 /* Button styling */
